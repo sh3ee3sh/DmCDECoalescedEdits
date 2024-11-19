@@ -34,7 +34,7 @@ You should have two folders named Sc0 and Image0 within a folder named after you
 
 Move the files in Sc0 over to the folder in Image0 named sce_sys then delete the Sc0 folder
 
-Now you want to rename the folder with your game name after Title ID of your game with a -app at the end
+Now you want to rename the folder with your game name after the Title ID of your game with a -app at the end
 
 ![image](https://github.com/user-attachments/assets/a419d7e8-f1bc-4c4e-9549-8d0fe7b9401c)
 
