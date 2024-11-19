@@ -11,4 +11,8 @@ original code - m_useSpeedFoV=false
 Change code to - m_useSpeedFoV=true
 put fov  to m_speedFoVNewValue=120
 
+this should give a wider fov similar to dmc4 
+
+now i have to figure out to patch this without repackaging my whole game
+
 coalesced_int.bin is the original for the international english
