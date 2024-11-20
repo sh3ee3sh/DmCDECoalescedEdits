@@ -121,4 +121,4 @@ wine LECoal.exe pack YourUnpackeddirectory/ Coalesced_XXX.bin
 
 now you should have our new coalesced bin 
 
-replace it in your unpacked game files and repack your game
+replace it in your unpacked game files and repack your game and enjoy!
