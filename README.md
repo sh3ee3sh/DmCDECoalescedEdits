@@ -94,7 +94,7 @@ now you want to make an unpacked folder within that folder
 
 so everything should look like this at this point
 
-windows instructions 
+**windows instructions** 
 
 cd -path "yourLECoaldirectory"
 
@@ -109,7 +109,7 @@ Go back into PowerShell, Type:
 
 .\LECoal.exe pack "Your Unpacked directory" Coalesced_XXX.bin
 
-linux instructions (requires wine)
+**linux instructions (requires wine)**
 
 cd (your LECoal directory)
 
