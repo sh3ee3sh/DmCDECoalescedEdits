@@ -78,7 +78,47 @@ congrats now you should have increased fov for DmC Definitive Edition
 
 How to make your own config edits
 ---
-WIP ill do this later. 
+Download and extract [MELE_quickIniEditor](https://github.com/AYasinAkalin/MELE_quickIniEditor)
 
+all we really want is LECoal folder here as i havent actually ran this program to see what it does
 
+go to the LECoal folder open your terminal there or change directory to the lecoal folder
 
+copy and paste the original or your edited coalesced_xxx.bin file to the le coal folder
+
+now you want to make an unpacked folder within that folder
+
+!!!! ALWAYS BACKUP COALESCED BEFORE TWEAKS OR YOU WILL BE UNABLE TO INSTALL YOUR PKG there is a original coalesced_int.bin here incase with zero edits
+
+![image](https://github.com/user-attachments/assets/1b6e6563-c6f2-495c-a392-cc7f2b1ce01e)
+
+so everything should look like this at this point
+
+windows instructions 
+
+cd -path "yourLECoaldirectory"
+
+The command to unpack is:
+.\LECoal.exe unpack Coalesced_XXX.bin "your Unpacked folder directory”
+
+your unpacked folder should contain your ini files now
+
+make your changes to your inis 
+
+Go back into PowerShell, Type:
+
+.\LECoal.exe pack "Your Unpacked directory" Coalesced_XXX.bin
+
+linux instructions (requires wine)
+
+cd (your LECoal directory)
+
+wine LECoal.exe unpack Coalesced_XXX.bin YourUnpackedDirectory/
+
+make your changes
+
+wine LECoal.exe pack YourUnpackeddirectory/ Coalesced_XXX.bin
+
+now you should have our new coalesced bin 
+
+replace it in your unpacked game files and repack your game
