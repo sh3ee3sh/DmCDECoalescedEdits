@@ -88,7 +88,7 @@ copy and paste the original or your edited coalesced_xxx.bin file to the le coal
 
 now you want to make an unpacked folder within that folder
 
-!!!! ALWAYS BACKUP COALESCED BEFORE TWEAKS INCASE YOUR CHANGES BREAK YOUR GAME!!
+**!!!! ALWAYS BACKUP COALESCED BEFORE TWEAKS INCASE YOUR CHANGES BREAK YOUR GAME!!**
 
 **there is a original coalesced_int.bin here incase with zero edits**
 
