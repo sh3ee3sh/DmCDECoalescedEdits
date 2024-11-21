@@ -96,6 +96,8 @@ now you want to make an unpacked folder within that folder
 
 so everything should look like this at this point
 
+open terminal/powershell whatever you use that gives you access to your command line 
+
 **windows instructions** 
 
 cd -path "yourLECoaldirectory"
