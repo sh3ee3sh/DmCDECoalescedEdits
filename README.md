@@ -1,3 +1,5 @@
+NTGameFramework.xxx and Engine.xxx are debug menu files
+
 fovedit coalesced
 
 original code - AspectRatioAxisConstraint=AspectRatio_MaintainXFOV
