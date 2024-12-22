@@ -1,3 +1,4 @@
+# What this repo contains
 NTGameFramework.xxx and Engine.xxx are debug menu files
 
 fovedit coalesced
@@ -11,6 +12,51 @@ changed code to - AspectRatioAxisConstraint=AspectRatio_MaintainYFOV
 ! removed this because its annoying and difficult to adjust
 
 coalesced_int.bin is the original for the international english
+
+# How I Got Access to the Debug Menu in *DmC: Devil May Cry*
+
+This little guide could work for other Unreal Engine 3 games that have a debug menu.
+
+<details>
+  <summary>Step-by-Step Guide</summary>
+
+  1. **Use UE Explorer**
+     - Download and open UE Explorer.
+
+  2. **Find `IsNTGoldMaster` in `NTGameFramework`**
+     - Look for this function in either the `NTWorldExec` or `NTWorldInfo` class (I forgot which one).
+
+  3. **Collapse the Class**
+     - Collapse the class structure to narrow your view.
+
+  4. **Collapse Functions**
+     - Similarly, collapse the functions to locate `IsNTGoldMaster`.
+
+  5. **Right-Click `IsNTGoldMaster`**
+     - Choose **View Buffer** to inspect the function's bytecode.
+
+  6. **Edit the Bytecode**
+     - Look for the sequence:  
+       ```
+       01 25 02 00
+       ```
+       This indicates `true` in Unreal Script.
+
+     - Change it to:  
+       ```
+       04 28 00 00
+       ```
+       This indicates `false`.
+
+  7. **Save Changes**
+     - Save the modified buffer.
+
+</details>
+
+---
+
+The `IsNTGoldMaster` function asks, "Is this the final release?" By modifying it to always output `false`, you successfully trick the game into thinking it's a developer build, granting access to the debug menu.
+
 
 # Guide how to use this 
 
