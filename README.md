@@ -27,16 +27,16 @@ This little guide could work for other Unreal Engine 3 games that have a debug m
      - Look for this function in either the `NTWorldExec` or `NTWorldInfo` class (I forgot which one).
 
   3. **Collapse the Class**
-     - Collapse the class structure to narrow your view.
+     - Collapse the class.
 
   4. **Collapse Functions**
-     - Similarly, collapse the functions to locate `IsNTGoldMaster`.
+     - Next, collapse the functions to locate `IsNTGoldMaster`.
 
   5. **Right-Click `IsNTGoldMaster`**
-     - Choose **View Buffer** to inspect the function's bytecode.
+     - Choose **View Table Buffer** to inspect the function's bytecode.
 
   6. **Edit the Bytecode**
-     - Look for the sequence:  
+     - Look for the sequence at the end:  
        ```
        01 25 02 00
        ```
