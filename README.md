@@ -58,7 +58,7 @@ This little guide could work for other Unreal Engine 3 games that have a debug m
 The `IsNTGoldMaster` function asks, "Is this the final release?" By modifying it to always output `false`, you successfully trick the game into thinking it's a developer build, granting access to the debug menu.
 
 
-# Guide how to use this 
+# Guide How to Replace Files from your PS4 PKG Game
 
 Step 1: Unpacking your game (fake pkgs only) (skip if your game is already dumped)
 -
